@@ -1,0 +1,74 @@
+body {
+           background-color: #2E2D4E;
+           color: white;
+           max-width: 1200px;
+           margin: 0 auto;
+           padding: 15px;
+        }
+        header {
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           align-items: center;
+        }
+        li {
+            display: inline-block;
+            margin: 20px;
+        }
+        h1 {
+            font-weight: 200;
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+            margin-top: 120px;
+            justify-content: space-around;
+        }
+        h2 {
+            font-size: 35px;
+        }
+        span {
+            color: #FFDA94;
+        }
+        p {
+            line-height: 20px;
+            max-width: 500px;
+        }
+        img {
+            width: 230px;
+            border-radius: 15px;
+        }
+        a {
+            color: white;
+        }
+        a:hover {
+            color: #FFDA94;
+            transition: 0.3s all;
+        }
+        #rodape-site {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+           
+        }
+        .rodape {
+            display: inline-block;
+            margin: 70px 60px 0px 60px;
+            align-items: center;
+        }
+        .rodape-edu {
+            display: inline-block;
+            margin: 70px 60px 0px 60px;
+            align-items: center;
+        }
+        .rodape-cr {
+            display: inline-block;
+            margin: 120px 60px 0px 60px;
+            align-items: center;
+        }
+        #main-edu {
+            display: flex;
+            flex-direction: row;
+            margin-top: 110px;
+            justify-content: space-around;
+        }
